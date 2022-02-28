@@ -47,7 +47,7 @@ $(function () {
     // 发起ajaxPOST请求
     $.ajax({
       method: "POST",
-      url: 'http://www.liulongbin.top:3007/api/reguser',
+      url: '/api/reguser',
       data: {
         username: $("#username").val(),
         password: $("#password").val()

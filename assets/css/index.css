@@ -1,0 +1,50 @@
+#logo-img {
+  background: #23262e !important;
+}
+.layui-footer {
+  text-align: center;
+}
+.iconfont,
+.layui-icon {
+  margin-right: 8px;
+}
+.layui-icon {
+  margin-left: 30px;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+}
+.layui-body {
+  overflow: hidden;
+}
+
+a {
+  /* 清除所有动画 */
+  transition: none !important;
+}
+.avator-menu {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-bottom: solid #282b33 1px;
+  font-size: 12px;
+  user-select: none;
+}
+.text-avator {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  background-color: #009688;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+  top: 4px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.layui-nav-img {
+  height: 40px;
+  width: 40px;
+}

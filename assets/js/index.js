@@ -1,4 +1,3 @@
-// 193193
 $(function () {
   // 从layui中获取form对象
   let form = layui.form
@@ -68,7 +67,7 @@ $(function () {
     })
   })
   // 监听登录表单登录事件
-  $("#formlogin").submit(function (e) {
+  $("#formlogin").on('submit', function (e) {
     e.preventDefault()
     $.ajax({
       method: 'POST',
